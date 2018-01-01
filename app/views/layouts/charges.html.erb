@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+  <body>
+    <%= yield %>
+  </body>
+</html>
