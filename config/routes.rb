@@ -4,5 +4,4 @@ Rails.application.routes.draw do
   post 'actual_charge', to: 'charges#actual_charge'
   get 'create_source', to: 'charges#create_source'
   get 'accepted_charge', to: 'charges#accepted_charge'
-
 end
